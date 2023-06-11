@@ -1,2 +1,16 @@
 baseDataUri: "https://opendata.nederlandwereldwijd.nl/v1/sources/nederlandwereldwijd/infotypes/traveladvice"
 fetchInterval: "00:05:00"
+SMSSenderOption:
+  Link: >-
+    Data Source=10.10.20.46;Database=ReadysmsDB;User ID=sa;Password=lemon2020;
+    Encrypt=false
+  BankId: 60
+  Priority: '4:3_1:1'
+  Type: 1
+  CrDrMap: 'C:1_D:2_X:3'
+  ValidateWithUcd: false
+APIOptions:
+  UserName: sms1
+  Password: sms1
+  StopCode: ''
+  ServiceToken: osasdfma12233
