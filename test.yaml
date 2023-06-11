@@ -4,7 +4,7 @@ SMSSenderOption:
   Link: >-
     Data Source=10.10.20.46;Database=ReadysmsDB;User ID=sa;Password=lemon2020;
     Encrypt=false
-  BankId: 60
+  BankId: 1800
   Priority: '4:3_1:1'
   Type: 1
   CrDrMap: 'C:1_D:2_X:3'
